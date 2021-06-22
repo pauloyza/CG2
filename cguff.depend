@@ -1,0 +1,156 @@
+# depslib dependency file v1.0
+1623702866 source:c:\users\engpa\documents\tópicos em cg\opengl\gl00.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"matrix.h"
+	"Color.h"
+
+1606447476 c:\users\engpa\documents\tópicos em cg\opengl\libs\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1606447476 c:\users\engpa\documents\tópicos em cg\opengl\libs\freeglut\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1606447476 c:\users\engpa\documents\tópicos em cg\opengl\libs\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1606447476 c:\users\engpa\documents\tópicos em cg\opengl\libs\freeglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1623709966 c:\users\engpa\documents\tópicos em cg\opengl\matrix.h
+	"vec.h"
+
+1623455116 c:\users\engpa\documents\tópicos em cg\opengl\vec.h
+	<math.h>
+	<complex>
+	<vector>
+	<fstream>
+
+1612199874 c:\users\engpa\documents\tópicos em cg\opengl\color.h
+	<math.h>
+	"vec.h"
+
+1606447476 source:c:\users\engpa\documents\tópicos em cg\opengl\libs\glew\glew.c
+	<GL/glew.h>
+	<GL/osmesa.h>
+	<GL/eglew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1606447476 c:\users\engpa\documents\tópicos em cg\opengl\libs\glew\include\gl\eglew.h
+	<sys/types.h>
+	<KHR/khrplatform.h>
+	<EGL/eglplatform.h>
+	<GL/glew.h>
+
+1606447476 c:\users\engpa\documents\tópicos em cg\opengl\libs\glew\include\gl\wglew.h
+	<windows.h>
+
+1606447476 c:\users\engpa\documents\tópicos em cg\opengl\libs\glew\include\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1623703388 source:c:\users\engpa\documents\tópicos em cg\opengl\gl01.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"matrix.h"
+	"Color.h"
+
+1623964328 source:c:\users\engpa\documents\tópicos em cg\opengl\gl01b.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"GLutils.h"
+
+1623964343 c:\users\engpa\documents\tópicos em cg\opengl\glutils.h
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<array>
+	<functional>
+	"vec.h"
+	"matrix.h"
+	"Color.h"
+
+1624280528 source:c:\users\engpa\documents\tópicos em cg\opengl\gl10b.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"GLutils.h"
+	"ObjMesh.h"
+
+1624280551 c:\users\engpa\documents\tópicos em cg\opengl\objmesh.h
+	<vector>
+	<iostream>
+	<map>
+	"Primitives.h"
+
+1624111481 c:\users\engpa\documents\tópicos em cg\opengl\primitives.h
+	<iostream>
+	<array>
+	<vector>
+
+1623964343 source:c:\users\engpa\documents\tópicos em cg\opengl\glutils.cpp
+	<GL/glew.h>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	"GLutils.h"
+	"stb_image.h"
+
+1623964360 c:\users\engpa\documents\tópicos em cg\opengl\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1624280528 source:c:\users\engpa\documents\tópicos em cg\opengl\gl10c.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"matrix.h"
+	"Color.h"
+	"GLutils.h"
+	"ObjMesh.h"
+
+1624281219 source:c:\users\engpa\documents\tópicos em cg\opengl\gl14.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"GLutils.h"
+	"ObjMesh.h"
+

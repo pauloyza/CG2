@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cguff" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/cguff" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-m64" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-m64" />
+			<Add option="-DGLEW_STATIC" />
+			<Add directory="libs/glew/include" />
+			<Add directory="libs/freeglut/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-m64" />
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add directory="libs/freeglut/lib/x64" />
+		</Linker>
+		<Unit filename="Color.h" />
+		<Unit filename="ColorShader.frag" />
+		<Unit filename="ColorShader.vert" />
+		<Unit filename="GLutils.cpp" />
+		<Unit filename="ObjMesh.h" />
+		<Unit filename="cguff.cbp" />
+		<Unit filename="cguff.depend" />
+		<Unit filename="cguff.layout" />
+		<Unit filename="freeglut.dll" />
+		<Unit filename="gl00.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl01.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl01b.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl10b.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl10c.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl10e.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl10f.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl10g.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl10h.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl11b.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl14.cpp" />
+		<Unit filename="libs/glew/glew.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix.h" />
+		<Unit filename="vec.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

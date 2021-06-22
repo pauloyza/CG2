@@ -1,0 +1,21 @@
+newmtl pose
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1 0.1 0.1
+Ns 10
+d 1
+illum 2
+
+map_Kd Texture.jpg
+map_Bump Normal.jpg
+
+newmtl pose1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.3 0.3 0.3
+Ns 10
+d 1
+illum 2
+
+map_Kd Texture.jpg
+map_Bump NormalObjectSpace.jpg

@@ -209,48 +209,68 @@ float vangle = 0;
 
 void init_scene(){
 	meshes.emplace_back(
-		flag_mesh(50, 50),
-		translate(0, 8, -10)*scale(1.4282, 1, 1),
-		standard_material("brasil.png")
+		flag_mesh(80, 80),
+		translate(0, 20, -22)*scale(3*1.4282, 3, 3),
+		standard_material("comum.png")
 	);
 
 	meshes.emplace_back(
 		"modelos/bunny.obj",
-		translate(0, 5.2, 2),
+		translate(14, 8, -10),
 		standard_material("../blue.png")
 	);
 
 	meshes.emplace_back(
-		"modelos/monkey.obj",
-		translate(0, 5.6, -2)*scale(1.4, 1.4, 1.4)*rotate_x(-0.7)
+		"modelos/teapot.obj",
+		translate(0,5.0,-2)*scale(.14,.14,.14)*rotate_x(-M_PI/2),
+		standard_material("../cafe.jpg")
 	);
 
 	meshes.emplace_back(
-		"modelos/teapot.obj",
-		translate(6,0,4)*scale(.14,.14,.14)*rotate_x(-M_PI/2),
-		standard_material("../bob.jpg")
+		"modelos/wall.obj",
+		scale(100, 100, 100),
+		standard_material("../piso_geo.jpg")
 	);
 
-/*	meshes.emplace_back(
-		"modelos/wall.obj",
-		scale(20, 20, 20),
-		standard_material("../brickwall.jpg")
-	);
-*/
 	meshes.emplace_back(
 		"modelos/Wood Table/Old Wood Table.obj",
-		translate(0,1.08,0)
+		translate(0,1.08,-2)*rotate_y(-M_PI/2)
 	);
 
 	meshes.emplace_back(
-		"modelos/pose/pose.obj",
-		translate(-6, 0, 4)*rotate_y(1)*scale(.05, .05, .05)
+		"modelos/moco.obj",
+		translate(-250, -50, 0)*rotate_y(1.5)*scale(5, 5, 5)
+
+	);
+
+		meshes.emplace_back(
+		"modelos/moco.obj",
+		translate(-250, -50, 25)*rotate_y(1.5)*scale(5, 5, 5)
+
+	);
+
+		meshes.emplace_back(
+		"modelos/moco.obj",
+		translate(-250, -50, 50)*rotate_y(1.5)*scale(5, 5, 5)
+
+	);
+
+		meshes.emplace_back(
+		"modelos/moco.obj",
+		translate(-250, -50, 75)*rotate_y(1.5)*scale(5, 5, 5)
+
+	);
+
+		meshes.emplace_back(
+		"modelos/moco.obj",
+		translate(-250, -50, 100)*rotate_y(1.5)*scale(5, 5, 5)
+
 	);
 
 	meshes.emplace_back(
-		"modelos/train-toy-cartoon/train-toy-cartoon.obj",
-		translate(0,0,6)*rotate_y(-2.3)*scale(120, 120, 120)
-	);
+        "modelos/low_poly_tree/lowpoly_tree_sample.obj",
+        translate(15,0,-10)*scale(0.5,0.5,0.5)
+    );
 }
 
 void init(){

@@ -233,8 +233,8 @@ void init_scene(){
 	);
 
 	meshes.emplace_back(
-		"modelos/Wood Table/Old Wood Table.obj",
-		translate(0,1.08,-2)*rotate_y(-M_PI/2)
+		"modelos/other table/Wood_Table.obj",
+		translate(0,1.08,-2)*rotate_y(-M_PI/2)*scale(8,8,8)
 	);
 
 	meshes.emplace_back(

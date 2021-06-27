@@ -40,7 +40,11 @@
 		<Unit filename="ColorShader.frag" />
 		<Unit filename="ColorShader.vert" />
 		<Unit filename="GLutils.cpp" />
+		<Unit filename="GLutils.h" />
+		<Unit filename="MarchingCubes.h" />
+		<Unit filename="MarchingCubesTables.h" />
 		<Unit filename="ObjMesh.h" />
+		<Unit filename="Primitives.h" />
 		<Unit filename="cguff.cbp" />
 		<Unit filename="cguff.depend" />
 		<Unit filename="cguff.layout" />
@@ -85,11 +89,21 @@
 			<Option compile="0" />
 			<Option link="0" />
 		</Unit>
-		<Unit filename="gl14.cpp" />
+		<Unit filename="gl13a.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="gl13a_renew.cpp" />
+		<Unit filename="gl14.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
 		<Unit filename="libs/glew/glew.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="matrix.h" />
+		<Unit filename="stb_image.h" />
+		<Unit filename="stb_image_write.h" />
 		<Unit filename="vec.h" />
 		<Extensions />
 	</Project>

@@ -243,3 +243,59 @@
 	<X11/Xmd.h>
 	<GL/glew.h>
 
+1624411068 source:c:\users\engpa\documents\tópicos em cg\exercícios de cg\gl14.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"GLutils.h"
+	"ObjMesh.h"
+
+1606447476 c:\users\engpa\documents\tópicos em cg\exercícios de cg\libs\freeglut\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1606447476 c:\users\engpa\documents\tópicos em cg\exercícios de cg\libs\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1606447476 c:\users\engpa\documents\tópicos em cg\exercícios de cg\libs\freeglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1624280551 c:\users\engpa\documents\tópicos em cg\exercícios de cg\objmesh.h
+	<vector>
+	<iostream>
+	<map>
+	"Primitives.h"
+
+1624111481 c:\users\engpa\documents\tópicos em cg\exercícios de cg\primitives.h
+	<iostream>
+	<array>
+	<vector>
+
+1624567260 source:c:\users\engpa\documents\tópicos em cg\exercícios de cg\gl13a.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"Color.h"
+	"GLutils.h"
+	"MarchingCubes.h"
+
+1624306796 c:\users\engpa\documents\tópicos em cg\exercícios de cg\marchingcubes.h
+	"vec.h"
+	<functional>
+	"MarchingCubesTables.h"
+
+1624306796 c:\users\engpa\documents\tópicos em cg\exercícios de cg\marchingcubestables.h
+
+1624751795 source:c:\users\engpa\documents\tópicos em cg\exercícios de cg\gl13a_renew.cpp
+	<GL/glew.h>
+	<GL/freeglut.h>
+	"Color.h"
+	"GLutils.h"
+	"MarchingCubes.h"
+
